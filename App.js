@@ -9,13 +9,13 @@
 import React, {Component} from 'react';
 import {Platform, StyleSheet, Text, View} from 'react-native';
 
+import AppContainer from './navigation/SmartHomeNavigation';
+
 
 export default class App extends Component {
   render() {
     return (
-      <View style={styles.container}>
-      Dashboard
-      </View>
+      <AppContainer/>
     );
   }
 }
